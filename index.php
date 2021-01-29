@@ -2,7 +2,8 @@
 
     include_once("function/helper.php");
     
-        ?>
+    $page = isset($_GET['page']) ? $_GET['page'] : false;
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,6 +35,15 @@
        </div>
 
        <div id="content">
+       <?php
+            $filename ="$page.php";
+
+            if(file_exists($filename)){
+                include_once($filename);
+            }else{
+                echo "Maaf file tidak tersedia";
+            }
+       ?>
        
        </div>
 
