@@ -13,9 +13,11 @@
                 echo "<div class='notif'>Hai, kamu belum melengkapi data dibawah ini..</div>";
             }elseif($notif == "password"){
                 echo "<div class='notif'>Password yang kamu masukkan tidak sama !</div>";
+            }elseif($notif == "email"){
+                echo "<div class='notif'>Email yang kamu masukkan sudah terdaftar !</div>";
             }
         ?>
-        </br>
+        
         <div class="element-form">
             <label>Nama Lengkap</label>
             <span><input type="text" name="nama_lengkap" value="<?php echo $nama_lengkap; ?>" /></span>
