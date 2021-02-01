@@ -13,6 +13,13 @@
     }else{
         $row = mysqli_fetch_assoc($query);
 
-        echo $row['nama'];
+        session_start();
+
+        $_SESSION['user_id'] = $row['user_id'];
+        $_SESSION['nama'] = $row['nama'];
+        $_SESSION['level'] = $row['level'];
+
+        header("location: ".BASE_URL."index.php?page=my_profile&module=pesanan&action=list");
+
 
     }
