@@ -60,7 +60,7 @@
             if(file_exists($filename)){
                 include_once($filename);
             }else{
-                echo "Maaf file tidak tersedia";
+                include_once("main.php");
             }
        ?>
        
