@@ -48,8 +48,8 @@
         echo "</table>";
 
         echo "<div id='frame-button-keranjang'>
-                <a id='lanjut-belanja' href='".BASE_URL."index.php'>< Kembali Belanja</a>
-                <a id='lanjut-pesanan' href='".BASE_URL."index.php?page=data_pesanan'>Lanjut Pesanan ></a>
+                <a id='lanjut-belanja' href='".BASE_URL."index.php'>← Kembali Belanja</a>
+                <a id='lanjut-pesanan' href='".BASE_URL."index.php?page=data_pemesan'>Lanjut Pesanan →</a>
                </div>";
     }
 

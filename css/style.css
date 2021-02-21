@@ -5,6 +5,33 @@ body {
   margin: 0px;
 }
 
+h3.label-data-pengiriman {
+  border: 1px solid lightseagreen;
+  padding: 10px 7px;
+  margin: 0px;
+}
+
+#frame-form-pengiriman {
+  border: 1px solid lightseagreen;
+  padding: 20px;
+}
+
+#frame-detail-order {
+  border: 1px solid lightseagreen;
+}
+
+#frame-data-detail {
+  float: left;
+  width: 560px;
+}
+
+#frame-data-pengiriman {
+  float: left;
+  width: 485px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
 #lanjut-pesanan {
   float: right;
 }

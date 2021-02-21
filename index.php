@@ -11,7 +11,7 @@
     $user_id = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : false;
     $nama = isset($_SESSION['nama']) ? $_SESSION['nama'] : false;
     $level = isset($_SESSION['level']) ? $_SESSION['level'] : false;
-    $keranjang = isset($_SESSION['keranjang']) ? $_SESSION['keranjang'] : false;
+    $keranjang = isset($_SESSION['keranjang']) ? $_SESSION['keranjang'] : array();
     $totalBarang = count($keranjang);
 
 ?>
