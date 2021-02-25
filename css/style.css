@@ -5,6 +5,19 @@ body {
   margin: 0px;
 }
 
+#frame-keterangan-pembayaran p {
+  color: black;
+  text-align: left;
+  font-size: 11px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+#frame-faktur h3 {
+  border-bottom: 1px solid deepskyblue;
+  padding-bottom: 10px;
+}
+
 h3.label-data-pengiriman {
   border: 1px solid lightseagreen;
   padding: 10px 7px;
@@ -389,6 +402,16 @@ a {
   margin-top: 5px;
   display: inline-block;
   text-decoration: none;
+}
+
+#frame-keterangan-pembayaran p a {
+  background: darkblue;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#frame-keterangan-pembayaran p a:hover {
+  background: orange;
 }
 
 #lanjut-belanja {
