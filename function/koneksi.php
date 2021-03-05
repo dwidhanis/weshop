@@ -1,6 +1,6 @@
 <?php
 
-    $server = "localhost";
+    $server = "https://digima.herokuapp.com/";
     $username = "root";
     $password = "";
     $database = "weshop";

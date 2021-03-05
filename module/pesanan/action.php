@@ -5,6 +5,8 @@
     
     session_start();
 
+    admin_only("pesanan", $level);
+
     $pesanan_id = $_GET['pesanan_id'];
     $button = $_POST['button'];
 

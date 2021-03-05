@@ -2,7 +2,9 @@
     include("../../function/koneksi.php");   
     include("../../function/helper.php");   
      
-    $kota = $_POST['kota'];
+	admin_only("kota", $level);
+
+	$kota = $_POST['kota'];
     $tarif = $_POST['tarif'];
     $status = $_POST['status'];
     $button = $_POST['button'];

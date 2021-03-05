@@ -59,15 +59,15 @@
                               <a href='".BASE_URL."index.php?page=my_profile&module=pesanan&action=list'>My Profile</a>
                               <a href='".BASE_URL."logout.php' >Logout</a>";
                     }else{
-                        echo "<a href='".BASE_URL."index.php?page=login' >Login</a>
-                              <a href='".BASE_URL."index.php?page=register' >Register</a>";
+                        echo "<a href='".BASE_URL."login.html' >Login</a>
+                              <a href='".BASE_URL."register.html' >Register</a>";
         
                     }
                 ?>
 
                 </div>
 
-                <a href="<?php echo BASE_URL."index.php?page=keranjang"; ?>" id="button-keranjang">
+                <a href="<?php echo BASE_URL."keranjang.html"; ?>" id="button-keranjang">
                 <img src="<?php echo BASE_URL."images/add-to-basket.png"; ?>" alt=""/>
                 <?php
                     if($totalBarang != 0){
