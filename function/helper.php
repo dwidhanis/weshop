@@ -1,6 +1,6 @@
 <?php
 
-    define("BASE_URL", "https://furnistores.netlify.app/");
+    define("BASE_URL", "https://localhost/weshop/");
 
     //array status pesanan
     $arrayStatusPesanan[0] = "Menunggu Pembayaran";
