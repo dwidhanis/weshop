@@ -1,6 +1,6 @@
 <?php
 
-    $server = "https://digima.herokuapp.com/";
+    $server = "https://furnistores.netlify.app/";
     $username = "root";
     $password = "";
     $database = "weshop";
