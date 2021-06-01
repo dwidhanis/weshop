@@ -1,6 +1,6 @@
 <?php
 
-    $server = "https://furnistores.netlify.app/";
+    $server = "https://localhost/weshop/";
     $username = "root";
     $password = "";
     $database = "weshop";
