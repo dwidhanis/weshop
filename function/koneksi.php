@@ -1,6 +1,6 @@
 <?php
 
-    $server = "https://localhost/weshop/";
+    $server = "localhost";
     $username = "root";
     $password = "";
     $database = "weshop";
